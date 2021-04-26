@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <script>
+  var userstring = prompt("Gimme a number greter than 100...");
+  var usernum = parseInt(userstring);
+
+  while (usernum < 100) {
+    console.log(usernum + "is less than 100, Try again , Ive got all day");
+    userstring = prompt(usernum + "is less than 100,Try again Ive got all day...");
+    usernum = parseInt(userstring);
+  }
+
+  console.log(usernum + "is greater than 100! Finally! Great Job!");
+  </script>
+  </body>
+</html>
