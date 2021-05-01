@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <script>
+  var maximum_stories = 12;
+	work = prompt("On what floor of the building is your office?");
+	floor = parseInt(work);
+	while (floor > 12){
+		console.log(floor+" is greater than the amount of floors in the building. There are "+ maximum_stories +" floors, please enter again.");
+		work = prompt("On what floor of the building is your office?");
+		floor = parseInt(work);
+	}
+	console.log("Congratulations, "+floor+" is a valid designation.");
+  </script>
+  </body>
+</html>
